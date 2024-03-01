@@ -1,0 +1,25 @@
+{
+  "name": "discord-vc-notification-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashikota/discord-vc-notification-bot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "kota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yashikota/discord-vc-notification-bot/issues"
+  },
+  "homepage": "https://github.com/yashikota/discord-vc-notification-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
