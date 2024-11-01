@@ -1,25 +1,27 @@
 {
-  "name": "discord-vc-notification-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yashikota/discord-vc-notification-bot.git"
-  },
-  "keywords": [
-    "discord"
-  ],
-  "author": "kota",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yashikota/discord-vc-notification-bot/issues"
-  },
-  "homepage": "https://github.com/yashikota/discord-vc-notification-bot#readme",
-  "dependencies": {
-    "discord.js": "^14.14.1"
-  }
+    "name": "discord-vc-bot",
+    "version": "1.0.0",
+    "description": "discord voice chat join notification & status sharing bot",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node index.js",
+        "check": "npx @biomejs/biome check . --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yashikota/discord-vc-bot.git"
+    },
+    "keywords": ["discord"],
+    "author": "kota",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yashikota/discord-vc-bot/issues"
+    },
+    "homepage": "https://github.com/yashikota/discord-vc-bot#readme",
+    "dependencies": {
+        "discord.js": "^14.16.3"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4"
+    }
 }
