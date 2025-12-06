@@ -1,5 +1,7 @@
 # discord-vc-bot
 
+Notifies when someone joins a Discord voice channel  
+
 ![example](./example.png)
 
 ## Usage
